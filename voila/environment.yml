@@ -1,12 +1,7 @@
 name: voila
 channels:
   - conda-forge
+  - conda
 dependencies:
-  - jupyterlab=3
-  - ipyvolume
-  - bqplot
-  - scipy
-  - ipympl
-  - ipympl
-  - xleaflet=0.16.0
-  - xeus-cling=0.13.0
+  - sphinx
+  - pydata-sphinx-theme
